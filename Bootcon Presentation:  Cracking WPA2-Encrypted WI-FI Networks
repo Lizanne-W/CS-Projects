@@ -1,0 +1,6 @@
+Wi-Fi networks secured by WPA2 are vulnerable to attacks if weak passwords are used. 
+Understanding this process helps highlight the importance of strong passwords and 
+effective Wi-Fi security. 
+This project aims to demonstrate how attackers can exploit weak passwords and the potential consequences of poor network security.
+- Tools: Aircrack-ng, wireshark
+    
