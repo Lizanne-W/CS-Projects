@@ -16,7 +16,7 @@ Fill in a Username and password or generate a SSH public key <br/>
 Review + Create <br/>
 
 Once the VM is created, copy the ip address of the VM <br/>
-Don't forget to edit the inbound Security rules in the NSG to allow port 22 for ssh.
+Don't forget to edit the inbound Security rules in the NSG to allow port 64295 for ssh.
 <img width="2245" height="543" alt="image" src="https://github.com/user-attachments/assets/4b6a1b94-35ca-437e-8a8b-83c0165282b8" /> <br/>
 Start the VM in the Azure GUI <br/>
 Once the VM completes the start up, you will be able to ssh in to the VM via the ip address using any ssh client. <br/>
@@ -32,13 +32,14 @@ pass: (create a password) <br/>
 Once the t-Pot installer has complete installation, reboot the VM. <br/>
 sudo reboot <br/>
 Once the VM has restarted, you can log into the T‑Pot dashboard by navigating to:  
-https://<VM-IP>:64297 <br/>  
+https://VM-IP:64297 <br/>  
 You’ll be prompted to accept the risk of the self‑signed certificate. <br/>
 SSH is now served on port 64295. Port 22 is no longer for administration. It’s part of the honeypot environment.<br/>
 <br/>
 Things to Note: <br/>
 After initial installation and logging in to the T-pot dashboard. Everything seems to be working fine. But I noticed a spike in CPU usage and the honeypots do not provide any data at all. The main issue was the default T-pot installation installing all honeypots instead of just focusing on SSH or HTTP or whichever services you want to focus on.<br/>
-Click [Here](https://github.com/telekom-security/tpotce#customize-t-pot-honeypots-and-services) to read up on customising honeypots or services. <br/>
+Costomization steps taken from T-Pot's official page. [Here](https://github.com/telekom-security/tpotce#customize-t-pot-honeypots-and-services)  <br/>
+<br/>
 STEPS:<br/>
 Stop T-Pot with systemctl stop tpot <br/>
 Copy the docker compose file cp ~/tpotce/compose/<dockercompose.yml> ~/tpotce/docker-compose.yml <br/>
