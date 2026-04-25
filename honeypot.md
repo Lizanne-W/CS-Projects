@@ -51,9 +51,9 @@ The script will guide you through the process of creating your own docker-compos
 Stop T-Pot with systemctl stop tpot <br/>
 Copy the custom docker compose file: cp docker-compose-custom.yml ~/tpotce and cd ~/tpotce<br/>
 Check if everything works by running docker-compose -f docker-compose-custom.yml up. In case of errors follow the Docker Compose Specification for mitigation. Most likely it is just a port conflict you can adjust by editing the docker compose file.<br/>
-If everything works just fine press CTRL-C to stop the containers and run docker-compose -f docker-compose-custom.yml down -v.
-Replace docker compose file with the new and successfully tested customized docker compose file mv ~/tpotce/docker-compose-custom.yml ~/tpotce/docker-compose.yml.
-Start T-Pot with systemctl start tpot.
+If everything works just fine press CTRL-C to stop the containers and run docker-compose -f docker-compose-custom.yml down -v <br/>
+Replace docker compose file with the new and successfully tested customized docker compose file mv ~/tpotce/docker-compose-custom.yml ~/tpotce/docker-compose.yml<br/>
+Start T-Pot with systemctl start tpot
 
 
 
