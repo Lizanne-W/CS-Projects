@@ -25,9 +25,9 @@ Once you ssh in to the VM; <br/>
 sudo apt update && sudo apt upgrade -y <br/>
 env bash -c "$(curl -sL https://github.com/telekom-security/tpotce/raw/master/install.sh)" <br/>
 Choose Y <br/>
-Choose "h" for Hive TPot standard <br/>
+Choose h for Hive TPot standard <br/>
 user: (create a username)<br/>
-confirm with 'y' <br/>
+confirm with y <br/>
 pass: (create a password) <br/>
 Once the t-Pot installer has complete installation, reboot the VM. <br/>
 sudo reboot <br/>
