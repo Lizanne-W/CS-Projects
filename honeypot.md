@@ -37,7 +37,7 @@ You’ll be prompted to accept the risk of the self‑signed certificate. <br/>
 SSH is now served on port 64295. Port 22 is no longer for administration. It’s part of the honeypot environment.<br/>
 <br/>
 Things to Note: <br/>
-After initial installation and logging in to the T-pot dashboard. Everything seems to be working fine. But I noticed a spike in CPU usage and the honeypots do not provide any data at all. The main issue was the default T-pot installation installing all honeypots instead of just focusing on SSH or HTTP or whichever services you want to focus on.<br/>
+After initial installation and logging in to the T-pot dashboard. Everything seemed to be working fine. But I noticed a spike in CPU usage and the honeypots do not provide any data at all. The main issue was the default T-pot installation installing all honeypots instead of specific services like SSH or HTTP or whichever services you want to focus on.<br/>
 Costomization steps taken from T-Pot's official page. [Here](https://github.com/telekom-security/tpotce#customize-t-pot-honeypots-and-services)  <br/>
 <br/>
 STEPS:<br/>
