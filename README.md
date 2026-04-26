@@ -6,4 +6,5 @@ Thank you & Good luck.
 [Splunk](Splunk.md) <br/>
 [Pentesting & Report](Pentesting.md) <br/> 
 [BootCon](BootCon.md)<br/>
-[T-potInstallation](honeypot.md)
+[T-pot Installation](honeypot.md)<br/>
+[Honeypot Capture Report](honeypotreport.md)<br/>
